@@ -11,6 +11,12 @@
 		E31664AA26929D9E003175EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31664A926929D9E003175EF /* ContentView.swift */; };
 		E31664AC26929DA0003175EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31664AB26929DA0003175EF /* Assets.xcassets */; };
 		E31664AF26929DA0003175EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31664AE26929DA0003175EF /* Preview Assets.xcassets */; };
+		E39C2CB82696B85400C8DD3A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C2CB72696B85400C8DD3A /* WelcomeView.swift */; };
+		E39C2CBA2696B86900C8DD3A /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C2CB92696B86900C8DD3A /* ExerciseView.swift */; };
+		E39C2CC02696C33200C8DD3A /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E39C2CBC2696C33100C8DD3A /* squat.mp4 */; };
+		E39C2CC12696C33200C8DD3A /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E39C2CBD2696C33100C8DD3A /* burpee.mp4 */; };
+		E39C2CC22696C33200C8DD3A /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E39C2CBE2696C33100C8DD3A /* step-up.mp4 */; };
+		E39C2CC32696C33200C8DD3A /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E39C2CBF2696C33200C8DD3A /* sun-salute.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		E31664AB26929DA0003175EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31664AE26929DA0003175EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E31664B026929DA0003175EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C2CB72696B85400C8DD3A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		E39C2CB92696B86900C8DD3A /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		E39C2CBC2696C33100C8DD3A /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
+		E39C2CBD2696C33100C8DD3A /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		E39C2CBE2696C33100C8DD3A /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		E39C2CBF2696C33200C8DD3A /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,12 @@
 		E31664A626929D9E003175EF /* FitMan */ = {
 			isa = PBXGroup;
 			children = (
+				E39C2CBD2696C33100C8DD3A /* burpee.mp4 */,
+				E39C2CBC2696C33100C8DD3A /* squat.mp4 */,
+				E39C2CBE2696C33100C8DD3A /* step-up.mp4 */,
+				E39C2CBF2696C33200C8DD3A /* sun-salute.mp4 */,
 				E31664A726929D9E003175EF /* FitManApp.swift */,
-				E31664A926929D9E003175EF /* ContentView.swift */,
+				E39C2CBB2696B88300C8DD3A /* Views */,
 				E31664AB26929DA0003175EF /* Assets.xcassets */,
 				E31664B026929DA0003175EF /* Info.plist */,
 				E31664AD26929DA0003175EF /* Preview Content */,
@@ -67,6 +83,16 @@
 				E31664AE26929DA0003175EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E39C2CBB2696B88300C8DD3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E31664A926929D9E003175EF /* ContentView.swift */,
+				E39C2CB92696B86900C8DD3A /* ExerciseView.swift */,
+				E39C2CB72696B85400C8DD3A /* WelcomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E39C2CC22696C33200C8DD3A /* step-up.mp4 in Resources */,
+				E39C2CC12696C33200C8DD3A /* burpee.mp4 in Resources */,
 				E31664AF26929DA0003175EF /* Preview Assets.xcassets in Resources */,
+				E39C2CC02696C33200C8DD3A /* squat.mp4 in Resources */,
+				E39C2CC32696C33200C8DD3A /* sun-salute.mp4 in Resources */,
 				E31664AC26929DA0003175EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E39C2CBA2696B86900C8DD3A /* ExerciseView.swift in Sources */,
 				E31664AA26929D9E003175EF /* ContentView.swift in Sources */,
+				E39C2CB82696B85400C8DD3A /* WelcomeView.swift in Sources */,
 				E31664A826929D9E003175EF /* FitManApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
