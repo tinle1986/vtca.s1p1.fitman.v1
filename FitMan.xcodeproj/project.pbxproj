@@ -17,6 +17,7 @@
 		E39C2CC12696C33200C8DD3A /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E39C2CBD2696C33100C8DD3A /* burpee.mp4 */; };
 		E39C2CC22696C33200C8DD3A /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E39C2CBE2696C33100C8DD3A /* step-up.mp4 */; };
 		E39C2CC32696C33200C8DD3A /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E39C2CBF2696C33200C8DD3A /* sun-salute.mp4 */; };
+		E3C75BC02699CF9F00243DA9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C75BBF2699CF9F00243DA9 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E39C2CBD2696C33100C8DD3A /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 		E39C2CBE2696C33100C8DD3A /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
 		E39C2CBF2696C33200C8DD3A /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
+		E3C75BBF2699CF9F00243DA9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				E31664A926929D9E003175EF /* ContentView.swift */,
 				E39C2CB92696B86900C8DD3A /* ExerciseView.swift */,
+				E3C75BBF2699CF9F00243DA9 /* HeaderView.swift */,
 				E39C2CB72696B85400C8DD3A /* WelcomeView.swift */,
 			);
 			path = Views;
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C75BC02699CF9F00243DA9 /* HeaderView.swift in Sources */,
 				E39C2CBA2696B86900C8DD3A /* ExerciseView.swift in Sources */,
 				E31664AA26929D9E003175EF /* ContentView.swift in Sources */,
 				E39C2CB82696B85400C8DD3A /* WelcomeView.swift in Sources */,
