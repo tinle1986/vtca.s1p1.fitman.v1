@@ -16,7 +16,7 @@ struct ContentView: View {
 				}
 			}
 			.tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-			.indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+//			.indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
     }
 }
 
