@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30D5E3D269D2F290095CE91 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30D5E3C269D2F290095CE91 /* RatingView.swift */; };
 		E31664A826929D9E003175EF /* FitManApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31664A726929D9E003175EF /* FitManApp.swift */; };
 		E31664AA26929D9E003175EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31664A926929D9E003175EF /* ContentView.swift */; };
 		E31664AC26929DA0003175EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31664AB26929DA0003175EF /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E30D5E3C269D2F290095CE91 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		E31664A426929D9E003175EF /* FitMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31664A726929D9E003175EF /* FitManApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitManApp.swift; sourceTree = "<group>"; };
 		E31664A926929D9E003175EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				E31664A926929D9E003175EF /* ContentView.swift */,
 				E39C2CB92696B86900C8DD3A /* ExerciseView.swift */,
+				E30D5E3C269D2F290095CE91 /* RatingView.swift */,
 				E3C75BBF2699CF9F00243DA9 /* HeaderView.swift */,
 				E39C2CB72696B85400C8DD3A /* WelcomeView.swift */,
 			);
@@ -174,6 +177,7 @@
 				E3C75BC02699CF9F00243DA9 /* HeaderView.swift in Sources */,
 				E39C2CBA2696B86900C8DD3A /* ExerciseView.swift in Sources */,
 				E31664AA26929D9E003175EF /* ContentView.swift in Sources */,
+				E30D5E3D269D2F290095CE91 /* RatingView.swift in Sources */,
 				E39C2CB82696B85400C8DD3A /* WelcomeView.swift in Sources */,
 				E31664A826929D9E003175EF /* FitManApp.swift in Sources */,
 			);
