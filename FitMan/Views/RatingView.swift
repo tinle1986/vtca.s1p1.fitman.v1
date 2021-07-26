@@ -8,20 +8,29 @@
 import SwiftUI
 
 struct RatingView: View {
-    var body: some View {
-			HStack {
-				ForEach(0 ..< 5) { _ in
-					Image(systemName: "waveform.path.ecg")
-						.foregroundColor(.gray)
-						.font(.largeTitle)
-				}
+	@Binding var rating: Int
+	let maxRating = 5
+	
+	let onColor = Color.red
+	let offColor = Color.gray
+	
+	var body: some View {
+		HStack {
+			ForEach(1 ..< maxRating + 1) { index in
+				Image(systemName: "waveform.path.ecg")
+					.foregroundColor(index > rating ? offColor : onColor)
+					.onTapGesture {
+						rating = index
+					}
 			}
-    }
+		}
+		.font(.largeTitle)
+	}
 }
 
 struct RatingView_Previews: PreviewProvider {
-    static var previews: some View {
-        RatingView()
-					.previewLayout(.sizeThatFits)
-    }
+	static var previews: some View {
+		RatingView(rating: .constant(3))
+			.previewLayout(.sizeThatFits)
+	}
 }
